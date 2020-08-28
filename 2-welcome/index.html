@@ -86,11 +86,35 @@
           padding-left: 16px !important;
           padding-right: 16px !important;
         }
+
+        .narrators__table {
+          width: 100% !important;
+          max-width: 568px !important;
+        }
+
+        .narrators__cell {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+
+        .narrators__cell--1,
+        .narrators__cell--2 {
+          padding-bottom: 32px !important;
+        }
+
+        .mobile-hidden {
+          display: none !important;
+        }
       }
 
       #outlook a {
-          padding: 0 !important;
-        }
+        padding: 0 !important;
+      }
+
+      .button {
+        mso-style-priority: 100 !important;
+        text-decoration: none !important;
+      }
     </style>
   </head>
   <body style="width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; Margin: 0; font-family: 'trebuchet ms', tahoma, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
@@ -206,7 +230,7 @@
                           </tr>
                         </table>
                         <!--[if mso]></td><td style="width:0px;"></td><td style="width:175px;" valign="top"><![endif]-->
-                        <table align="right"cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: right;">
+                        <table align="right" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: right;">
                           <tr>
                             <td style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; width: 175px;">
                               <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
@@ -237,7 +261,7 @@
                     </tr>
                   </table>
 
-                  <table class="content" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
+                  <table class="content content--narrators" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
                     <tr>
                       <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 24px; padding-left: 32px; padding-right: 32px;">
                         <h2 style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 30px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 35px; color: #13d6c3;"><b>Ведущие курса</b></h2>
@@ -247,50 +271,68 @@
                       <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 48px; padding-left: 16px; padding-right: 16px;">
                         <table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                           <tr>
-                            <td valign="top" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 16px; padding-right: 8px; width: 33%;">
-                              <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
+                            <td class="content__narrators narrators" align="left" valign="top" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
+                              <!--[if mso]><table style="width:100%;" cellpadding="0" cellspacing="0"><tr><td style="width:168px;" valign="top"><![endif]-->
+                              <table class="narrators__table" align="left" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: left;">
                                 <tr>
-                                  <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 12px; padding-left: 0px; padding-right: 0px;">
-                                    <img src="https://raw.githubusercontent.com/Nitraatss/334301-play-html-1/master/2-welcome/img/person-1%402x.png" width="88" height="88" alt="Антон Громов Фронтенд-разработчик в Cats Development" border="0" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
-                                  </td>
-                                </tr>
-                                <tr align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
-                                  <td>
-                                    <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;"><b>Антон Громов</b></p>
-                                    <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;">Фронтенд-разработчик в&nbsp;Cats Development</p>
+                                  <td class="narrators__cell narrators__cell--1" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 16px; padding-right: 8px; width: 168px;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
+                                      <tr>
+                                        <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 12px; padding-left: 0px; padding-right: 0px;">
+                                          <img src="https://raw.githubusercontent.com/Nitraatss/334301-play-html-1/master/2-welcome/img/person-1%402x.png" width="88" height="88" alt="Антон Громов Фронтенд-разработчик в Cats Development" border="0" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
+                                        </td>
+                                      </tr>
+                                      <tr align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
+                                        <td>
+                                          <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;"><b>Антон Громов</b></p>
+                                          <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;">Фронтенд-разработчик в&nbsp;Cats Development</p>
+                                        </td>
+                                      </tr>
+                                    </table>
                                   </td>
                                 </tr>
                               </table>
-                            </td>
-                            <td valign="top" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 8px; padding-right: 8px; width: 33%;">
-                              <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
+                              <!--[if mso]></td><td style="width:0px;"></td><td style="width:168px;" valign="top"><![endif]-->
+                              <table class="narrators__table" align="left" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: left;">
                                 <tr>
-                                  <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 12px; padding-left: 0px; padding-right: 0px;">
-                                    <img src="https://raw.githubusercontent.com/Nitraatss/334301-play-html-1/master/2-welcome/img/person-2%402x.png" width="88" height="88" alt="Илья Раменский Team Lead в Lizard Software" border="0" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
-                                  </td>
-                                </tr>
-                                <tr align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
-                                  <td>
-                                    <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;"><b>Илья Раменский</b></p>
-                                    <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;">Team Lead в&nbsp;Lizard Software</p>
+                                  <td class="narrators__cell narrators__cell--2" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 8px; padding-right: 8px; width: 168px">
+                                    <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
+                                      <tr>
+                                        <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 12px; padding-left: 0px; padding-right: 0px;">
+                                          <img src="https://raw.githubusercontent.com/Nitraatss/334301-play-html-1/master/2-welcome/img/person-2%402x.png" width="88" height="88" alt="Илья Раменский Team Lead в Lizard Software" border="0" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
+                                        </td>
+                                      </tr>
+                                      <tr align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
+                                        <td>
+                                          <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;"><b>Илья Раменский</b></p>
+                                          <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;">Team Lead в&nbsp;Lizard Software</p>
+                                        </td>
+                                      </tr>
+                                    </table>
                                   </td>
                                 </tr>
                               </table>
-                            </td>
-                            <td valign="top" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 8px; padding-right: 16px; width: 33%;">
-                              <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
+                              <!--[if mso]></td><td style="width:0px;"></td><td style="width:168px;" valign="top"><![endif]-->
+                              <table class="narrators__table" align="right" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: right;">
                                 <tr>
-                                  <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 12px; padding-left: 0px; padding-right: 0px;">
-                                    <img src="https://raw.githubusercontent.com/Nitraatss/334301-play-html-1/master/2-welcome/img/person-3%402x.png" width="88" height="88" alt="Игнатий Чубаров Преподаватель IT в РУИТ" border="0" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
-                                  </td>
-                                </tr>
-                                <tr align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
-                                  <td>
-                                    <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;"><b>Игнатий Чубаров</b></p>
-                                    <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;">Преподаватель IT в&nbsp;РУИТ</p>
+                                  <td class="narrators__cell narrators__cell--3" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 8px; padding-right: 16px; width: 168px;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
+                                      <tr>
+                                        <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 12px; padding-left: 0px; padding-right: 0px;">
+                                          <img src="https://raw.githubusercontent.com/Nitraatss/334301-play-html-1/master/2-welcome/img/person-3%402x.png" width="88" height="88" alt="Игнатий Чубаров Преподаватель IT в РУИТ" border="0" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
+                                        </td>
+                                      </tr>
+                                      <tr align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
+                                        <td>
+                                          <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;"><b>Игнатий Чубаров</b></p>
+                                          <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #000000;">Преподаватель IT в&nbsp;РУИТ</p>
+                                        </td>
+                                      </tr>
+                                    </table>
                                   </td>
                                 </tr>
                               </table>
+                              <!--[if mso]></td></tr></table><![endif]-->
                             </td>
                           </tr>
                         </table>
@@ -300,7 +342,7 @@
 
                   <table class="content" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
                     <tr>
-                      <td align="left" style="Margin: 0; padding-top: 0px; padding-bottom: 48px; padding-left: 32px; padding-right: 32px;">
+                      <td class="mobile-hidden" align="left" style="Margin: 0; padding-top: 0px; padding-bottom: 48px; padding-left: 32px; padding-right: 32px;">
                         <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Пока вы&nbsp;ждёте начала курса, вам могут быть интересны вебинары на&nbsp;разные темы, которые проходят на&nbsp;платформе ежедневно.</p>
                       </td>
                     </tr>
