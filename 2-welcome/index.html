@@ -30,6 +30,11 @@
           display: none !important;
         }
 
+        .adaptive-img {
+          width: 100% !important;
+          height: auto !important
+        }
+
         .content {
           width: 100% !important;
           max-width: 600px !important;
@@ -87,6 +92,37 @@
           padding-right: 16px !important;
         }
 
+        .greetings {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+          padding-bottom: 24px !important;
+        }
+
+        .greetings__content-left,
+        .greetings__content-right {
+          max-width: 568px !important;
+          width: 100% !important;
+        }
+
+        .greetings__cell {
+          width: 100% !important;
+        }
+
+        .greetings__cell-hello {
+          padding-top: 24px !important;
+        }
+
+        .about__cell-top,
+        .about__cell-bottom {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+
+        .about__cell-top {
+          padding-top: 40px !important;
+          padding-bottom: 24px !important;
+        }
+
         .narrators__table {
           width: 100% !important;
           max-width: 568px !important;
@@ -100,6 +136,20 @@
         .narrators__cell--1,
         .narrators__cell--2 {
           padding-bottom: 32px !important;
+        }
+
+        .events__title-cell {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+          padding-bottom: 16px !important;
+        }
+
+        .events__button-cell {
+          padding-bottom: 9px !important;
+        }
+
+        .events__img-cell {
+          padding-bottom: 16px !important;
         }
 
         .footer__content {
@@ -164,7 +214,7 @@
                     </tr>
                   </table>
 
-                  <table class="content" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
+                  <table class="content content--menu" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
                     <tr>
                       <td align="left" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
                         <!--[if mso]><table style="width: 600px;" cellpadding="0" cellspacing="0"><tr><td style="width: 121px;" valign="top"><![endif]-->
@@ -228,16 +278,16 @@
                     </tr>
                   </table>
 
-                  <table class="content" bgcolor="#0b379b" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px; background-color: #0b379b;">
+                  <table class="content content--greetings" bgcolor="#0b379b" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px; background-color: #0b379b;">
                     <tr>
-                      <td align="left" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 32px; padding-right: 32px;">
+                      <td class="content__greetings greetings" align="left" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 32px; padding-right: 32px;">
                         <!--[if mso]><table style="width:536px;" cellpadding="0" cellspacing="0"><tr><td style="width:361px;" valign="top"><![endif]-->
-                        <table align="left" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: left;">
+                        <table class="greetings__content-left" align="left" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: left;">
                           <tr>
-                            <td style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; width: 361px;">
+                            <td class="greetings__cell" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; width: 361px;">
                               <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                                 <tr>
-                                  <td style="Margin: 0; padding-top: 32px; padding-bottom: 24px; padding-left: 0px">
+                                  <td class="greetings__cell-hello" style="Margin: 0; padding-top: 32px; padding-bottom: 24px; padding-left: 0px">
                                     <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #13d6c3;"><b>Здравствуйте, {{name}}</b></p>
                                   </td>
                                 </tr>
@@ -251,12 +301,12 @@
                           </tr>
                         </table>
                         <!--[if mso]></td><td style="width:0px;"></td><td style="width:175px;" valign="top"><![endif]-->
-                        <table align="right" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: right;">
+                        <table class="greetings__content-right" align="right" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: right;">
                           <tr>
-                            <td style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; width: 175px;">
+                            <td class="greetings__cell" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; width: 175px;">
                               <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                                 <tr>
-                                  <td style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
+                                  <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
                                     <img src="https://raw.githubusercontent.com/Nitraatss/334301-play-html-1/master/2-welcome/img/welcome-1%402x.png" width="175" height="269" alt="Векторный разработчик" border="0" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
                                   </td>
                                 </tr>
@@ -269,14 +319,14 @@
                     </tr>
                   </table>
 
-                  <table class="content" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
-                    <tr>
-                      <td align="center" style="Margin: 0; padding-top: 48px; padding-bottom: 24px; padding-left: 32px; padding-right: 32px;">
+                  <table class="content content--about" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
+                    <tr class="content__about about">
+                      <td class="about__cell-top" align="center" style="Margin: 0; padding-top: 48px; padding-bottom: 24px; padding-left: 32px; padding-right: 32px;">
                         <h2 style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 30px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 35px; color: #ff4b33;"><b>Что вас ждет на курсе</b></h2>
                       </td>
                     </tr>
-                    <tr>
-                      <td align="left" style="Margin: 0; padding-top: 0px; padding-bottom: 48px; padding-left: 32px; padding-right: 32px;">
+                    <tr class="content__about about">
+                      <td class="about__cell-bottom" align="left" style="Margin: 0; padding-top: 0px; padding-bottom: 48px; padding-left: 32px; padding-right: 32px;">
                         <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Вы&nbsp;будете изучать теорию и&nbsp;методику на&nbsp;примере учебного проекта, который разработали наши эксперты. А&nbsp;применить полученные знания на&nbsp;практике вы&nbsp;сможете, выполняя задания по&nbsp;личному проекту.<br /><br />В&nbsp;этом вам будет помогать наставник&nbsp;&mdash; опытный специалист, который проверит домашние задания и&nbsp;поделится секретами мастерства. А&nbsp;если у&nbsp;вас останутся вопросы, наставник сможет ответить на&nbsp;них на&nbsp;консультации.<br /><br />После завершения курса вам нужно будет подготовить свой проект к&nbsp;защите&nbsp;&mdash; убедиться, что он&nbsp;реализован в&nbsp;соответствии с&nbsp;техническим заданием.<br /><br />Желаем вам продуктивной работы на&nbsp;интенсиве и&nbsp;успешной защиты. У&nbsp;вас всё получится, мы&nbsp;в&nbsp;вас верим!</p>
                       </td>
                     </tr>
@@ -361,18 +411,18 @@
                     </tr>
                   </table>
 
-                  <table class="content" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
-                    <tr>
+                  <table class="content content--events" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; width: 600px;">
+                    <tr class="content__events events">
                       <td class="mobile-hidden" align="left" style="Margin: 0; padding-top: 0px; padding-bottom: 48px; padding-left: 32px; padding-right: 32px;">
                         <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Пока вы&nbsp;ждёте начала курса, вам могут быть интересны вебинары на&nbsp;разные темы, которые проходят на&nbsp;платформе ежедневно.</p>
                       </td>
                     </tr>
-                    <tr>
-                      <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 24px; padding-left: 32px; padding-right: 32px;">
+                    <tr class="content__events events">
+                      <td class="events__title-cell" align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 24px; padding-left: 32px; padding-right: 32px;">
                         <h2 style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 30px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 35px; color: #0b379b;"><b>Другие мероприятия</b></h2>
                       </td>
                     </tr>
-                    <tr>
+                    <tr class="content__events events">
                       <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 32px; padding-left: 16px; padding-right: 16px;">
                         <table width="100%" cellspacing="0" cellpadding="0" border="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                           <tr>
@@ -411,13 +461,13 @@
                         </table>
                       </td>
                     </tr>
-                    <tr>
-                      <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 16px; padding-left: 16px; padding-right: 16px;">
+                    <tr class="content__events events">
+                      <td class="events__button-cell" align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 16px; padding-left: 16px; padding-right: 16px;">
                         <a href="#" target="_blank" title="Переход на страницу всех мероприятий" style="mso-style-priority: 100 !important; text-decoration: none; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-family: 'trebuchet ms', tahoma, sans-serif; font-size: 18px; color:#ffffff; border-style: solid; border-color: #ff4b33; border-width: 8px 16px; display:inline-block; background: #ff4b33; border-radius: 5px; font-weight: normal; font-style: normal; line-height: 21px; width:auto; text-align: center;">Все мероприятия</a>
                       </td>
                     </tr>
-                    <tr>
-                      <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 8px; padding-left: 16px; padding-right: 16px;">
+                    <tr class="content__events events">
+                      <td class="events__img-cell" align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 8px; padding-left: 16px; padding-right: 16px;">
                         <img src="https://raw.githubusercontent.com/Nitraatss/334301-play-html-1/master/2-welcome/img/welcome-2%402x.png" width="273" height="290" alt="Векторные разработчии" border="0" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
                       </td>
                     </tr>
